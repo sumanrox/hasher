@@ -3,7 +3,7 @@
 [![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Zsh-green.svg)](https://en.wikipedia.org/wiki/Unix_shell)
  
 
-A fast and efficient password hashing tool that generates rainbow tables using various cryptographic hash functions. This tool is designed to help security professionals and enthusiasts generate rainbow tables for password cracking or auditing purposes.
+A fast and efficient password hashing tool that generates rainbow tables using various cryptographic hash functions. This tool is designed to help security professionals and enthusiasts generate rainbow tables for password cracking or auditing purposes. Use precomputed hash for faster decryption, don't waste time on cracking!!!
 
 ![Product-Demo](./product-demo/product-video.gif)
 
