@@ -10,6 +10,7 @@ from termcolor import colored
 def hash_password(password, salt, hash_type, salt_length=None):
     if salt_length is not None:
         salt = salt[:salt_length]
+    password = password.rstrip('\n')  # Remove the trailing newline character
     hash_object = hashlib.new(hash_type)
     hash_object.update((salt + password).encode())
     return hash_object.hexdigest()
