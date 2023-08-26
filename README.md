@@ -1,9 +1,3 @@
-# Hasher | A Fast Rainbow Table Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Zsh-green.svg)](https://en.wikipedia.org/wiki/Unix_shell)
- 
-
-A fast and efficient password hashing tool that generates rainbow tables using various cryptographic hash functions. This tool is designed to help security professionals and enthusiasts generate rainbow tables for password cracking or auditing purposes. Use precomputed hash for faster decryption, don't waste time on cracking!!!
 
 
          /$$   /$$                     /$$                          
@@ -17,6 +11,12 @@ A fast and efficient password hashing tool that generates rainbow tables using v
         
         Made with ❤ via OpenAI by Suman Roy! 🚀🚀🚀
 
+# Hasher | A Fast Rainbow Table Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Zsh-green.svg)](https://en.wikipedia.org/wiki/Unix_shell)
+ 
+
+A fast and efficient password hashing tool that generates rainbow tables using various cryptographic hash functions. This tool is designed to help security professionals and enthusiasts generate rainbow tables for password cracking or auditing purposes. Use precomputed hash for faster decryption, don't waste time on cracking!!!
 
 ## Features
 ![Product-Demo](./product-demo/product-video.gif)
