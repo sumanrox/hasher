@@ -83,8 +83,20 @@ Contributions are welcome! If you have any improvements or suggestions, feel fre
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-### Acknowledgments
-Special thanks to the tqdm and termcolor libraries for their contributions to this project.
+## Acknowledgments
+
+I would like to express our gratitude to the following open-source libraries and tools that made this project possible:
+
+- [tqdm](https://github.com/tqdm/tqdm): A fast, extensible progress bar for Python and CLI, used to provide a progress bar during password hashing.
+
+- [hashlib](https://docs.python.org/3/library/hashlib.html): A Python library for secure hash and message digest algorithms, used for password hashing.
+
+- [argparse](https://docs.python.org/3/library/argparse.html): The argparse module makes it easy to write user-friendly command-line interfaces, used for parsing command-line arguments.
+
+- [termcolor](https://pypi.org/project/termcolor/): A simple Python module for ANSI color formatting of output in the terminal, used for colorful console messages.
+
+We greatly appreciate the contributions of the developers and maintainers of these projects to the open-source community.
+
 
 
 ### Made with ❤️ by Suman Roy
