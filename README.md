@@ -5,9 +5,21 @@
 
 A fast and efficient password hashing tool that generates rainbow tables using various cryptographic hash functions. This tool is designed to help security professionals and enthusiasts generate rainbow tables for password cracking or auditing purposes. Use precomputed hash for faster decryption, don't waste time on cracking!!!
 
-![Product-Demo](./product-demo/product-video.gif)
+
+         /$$   /$$                     /$$                          
+        | $$  | $$                    | $$                          
+        | $$  | $$  /$$$$$$   /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$ 
+        | $$$$$$$$ |____  $$ /$$_____/| $$__  $$ /$$__  $$ /$$__  $$
+        | $$__  $$  /$$$$$$$|  $$$$$$ | $$  \ $$| $$$$$$$$| $$  \__/
+        | $$  | $$ /$$__  $$ \____  $$| $$  | $$| $$_____/| $$      
+        | $$  | $$|  $$$$$$$ /$$$$$$$/| $$  | $$|  $$$$$$$| $$      
+        |__/  |__/ \_______/|_______/ |__/  |__/ \_______/|__/ . ~ version -> 2023.1
+        
+        Made with ❤ via OpenAI by Suman Roy! 🚀🚀🚀
+
 
 ## Features
+![Product-Demo](./product-demo/product-video.gif)
 
 - Supports a variety of hash functions, including MD5, SHA-256, SHA-512, and more.
 - Multi-threaded for faster rainbow table generation.
