@@ -57,6 +57,7 @@ If you are not using salt for your passwords
 python hasher.py -w wordlist.txt -o output.txt -t 100 -x sha256
 ```
 
+
 #### If you have installed via the installation script
 ```bash
 hasher w wordlist.txt -o output.txt -t 100 -x sha256 --salt 'mysalt'
@@ -64,6 +65,14 @@ hasher w wordlist.txt -o output.txt -t 100 -x sha256 --salt 'mysalt'
 hasher -w wordlist.txt -o output.txt -t 100 -x sha256
 ```
 
+### Problem with Bigger wordlists > 1 GB
+When using the hasher program on bigger wordlists, it eats up the entire ram, so rather than processing a bigger file like over 1 GB, we rather split the files and then do process those subfiles and then merge them with sort while removing duplicates. All the user needs to do is chmod +x on this hashbigfiles.bash and run the script with appropriate arguments.
+```bash
+# Make it executable
+chmod +x hashbigfiles.bash
+# Execute it
+./hashbigfiles.bash /path/to/wordlists HASH_TYPE NUMBER_OF_THREADS
+```
 
 
 ### Arguments
