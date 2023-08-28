@@ -94,7 +94,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-I would like to express our gratitude to the following open-source libraries and tools that made this project possible:
+I would like to express my gratitude to the following open-source libraries and tools that made this project possible:
 
 - [tqdm](https://github.com/tqdm/tqdm): A fast, extensible progress bar for Python and CLI, used to provide a progress bar during password hashing.
 
